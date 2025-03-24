@@ -11,7 +11,10 @@ double inputDouble()
 //Функция для ввода вещественного числа Y
 double inputDouble2()
 {
-    
+    double y;
+    cout << "Введите вещественное число y: ";
+    cin >> y;
+    return y;
 }
 
 //Функция для ввода вещественного числа X
