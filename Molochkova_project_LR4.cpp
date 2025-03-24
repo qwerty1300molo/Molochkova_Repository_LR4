@@ -23,7 +23,9 @@ double inputDouble3()
 //Функция для нахождения целой части суммы этих 3х чисел
 double integerPartOfSum(double x, double y, double z)
 {
-    
+    double sum = x + y + z;
+    int integerPart = static_cast<int>(sum);
+    cout << "Целая часть суммы чисел: " << integerPart << endl;
 }
 
 //Функция для нахождения дробной части среднего геометрического модулей этих 3х чисел
