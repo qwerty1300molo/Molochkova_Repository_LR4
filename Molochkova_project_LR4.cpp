@@ -41,7 +41,9 @@ double integerPartOfSum(double x, double y, double z)
 //Функция для нахождения дробной части среднего геометрического модулей этих 3х чисел
 double fractionalPartOfGeometricMean(double x, double y, double z)
 {
-    
+    double geometricMean = pow(fabs(x) * fabs(y) * fabs(z), 1.0 / 3.0);
+    double fractionalPart = fmod(geometricMean, 1.0);
+    cout << "Дробная часть среднего геометрического модулей: " << fractionalPart << endl;
 }
 
 int main()
