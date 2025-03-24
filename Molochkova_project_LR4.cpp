@@ -6,13 +6,19 @@ using namespace std;
 //Функция для ввода вещественного числа X
 double inputDouble() 
 {
-   
+    double x;
+    cout << "Введите вещественное число x: ";
+    cin >> x;
+    return x;
 }
 
 //Функция для ввода вещественного числа Y
 double inputDouble2()
 {
-    
+    double y;
+    cout << "Введите вещественное число y: ";
+    cin >> y;
+    return y;
 }
 
 //Функция для ввода вещественного числа X
