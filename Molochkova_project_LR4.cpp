@@ -5,7 +5,10 @@ using namespace std;
 //Функция для ввода вещественного числа X
 double inputDouble() 
 {
-   
+    double x;
+    cout << "Введите вещественное число x: ";
+    cin >> x;
+    return x;
 }
 
 //Функция для ввода вещественного числа Y
